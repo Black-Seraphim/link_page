@@ -1,0 +1,416 @@
+/*#region font-face*/
+@font-face
+{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+/*#endregion font-face*/
+
+/*#region global*/
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body
+{
+    padding: 0px 0px;
+    background-color: #f0f0f0;
+}
+
+a
+{
+    width: 200px; 
+    height: 200px; 
+    float: left; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    padding: 0px;
+    margin: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	font-size: 1.3rem;
+	
+    -webkit-box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0,0,0,.12);
+            box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0,0,0,.12);
+	
+	-webkit-transition: background-color .2s ease-out, -webkit-box-shadow .2s ease-out;
+			transition: background-color .2s ease-out, -webkit-box-shadow .2s ease-out;
+		 -o-transition: background-color .2s ease-out, box-shadow .2s ease-out;
+			transition: background-color .2s ease-out, box-shadow .2s ease-out;
+			transition: background-color .2s ease-out, box-shadow .2s ease-out, -webkit-box-shadow .2s ease-out;
+}
+
+a:link,
+a:visited,
+a:active
+{
+    color: #505050;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #505050;
+    text-decoration: none;
+    background-color: hsl(182, 25%, 90%);
+    -webkit-box-shadow: 0px 0px 5px grey;
+            box-shadow: 0px 0px 5px grey;
+}
+
+.tile
+{
+    height: 100%;
+    width: 100%;
+}   
+
+.logo
+{
+    height: 75%;
+    text-align: center;
+}
+
+img
+{
+    height: 50%;
+    width: auto;
+    margin-top: 25%;
+}
+
+.label
+{
+    height: 25%;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding-top: 11px;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    background-color: #f5f5f5;
+}
+/*#endregion global*/
+
+/*#region tiles*/
+.google_search img
+{
+    height: 90%;
+    margin-top: 5%;
+}
+
+.google_maps img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.google_contacts img
+{
+    height: 85%;
+    margin-top: 5%;
+}
+
+.google_calendar img
+{
+    height: 75%;
+    margin-top: 10%;
+}
+
+.google_drive img
+{
+    height: 75%;
+    margin-top: 10%;
+}
+
+.iu_care img
+{
+    height: 75%;
+    margin-top: 8%;
+}
+
+.iu_mycampus img
+{
+    height: 75%;
+    margin-top: 8%;
+}
+
+.iu_learn img
+{
+    height: 75%;
+    margin-top: 8%;
+}
+
+.golem img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 10%;
+}
+
+.spiegel img
+{
+    height: 23%;
+    margin-top: 32%;
+}
+
+.facebook img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.linkedin img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+.xing img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.nebenan img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.deepl img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.google_translate img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.leo img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.amazon img
+{
+    height: 30%;
+    margin-top: 32%;
+}
+
+.prime_video img
+{
+    height: 55%;
+    margin-top: 22%;
+}
+
+.netflix img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.youtube img
+{
+    height: 120%;
+    margin-top: -8%;
+}
+
+.twitch img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.waiputv img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.daserste img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.zdf img
+{
+    height: 70%;
+    margin-top: 12%;
+    border-radius: 10px;
+}
+
+.tvtv img
+{
+    height: 100%;
+    margin-top: 0%;
+}
+
+.geizhals img
+{
+    height: 80%;
+    margin-top: 8%;
+    position: relative;
+    left: -10%;
+}
+
+.ebay img
+{
+    height: 45%;
+    margin-top: 24%;
+}
+
+.postbank img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+.dkb img
+{
+    height: 55%;
+    margin-top: 18%;
+}
+
+.amazon_lbb img
+{
+    height: 50%;
+    margin-top: 18%;
+}
+
+.paypal img
+{
+    height: 80%;
+    margin-top: 8%;
+}
+
+.wikipedia img
+{
+    height: 80%;
+    margin-top: 9%;
+}
+
+.ionos img
+{
+    height: 40%;
+    margin-top: 24%;
+}
+
+.rewe img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+.dm img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+.dominos img
+{
+    height: 90%;
+    margin-top: 4%;
+}
+
+.bildschirmarbeiter img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 50%;
+}
+
+.udemy img
+{
+    height: 75%;
+    margin-top: 9%;
+}
+
+.codecademy img
+{
+    height: 75%;
+    margin-top: 9%;
+}
+
+.waygate_lotto img
+{
+    height: 50%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+.speedtest img
+{
+    height: 80%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+/*#endregion tiles*/
+
+/*#region media-queries*/
+@media(max-width: 1450px)
+{
+    a
+    {
+        width: 150px; 
+        height: 150px; 
+        margin: 13px;
+        font-size: 1.1rem;
+    }
+
+    .label
+    {
+        padding-top: 7px;
+    }
+}
+
+@media(max-width: 900px)
+{
+    a
+    {
+        width: 125px; 
+        height: 125px; 
+        margin: 10px;
+        font-size: .9rem;
+    }
+
+    .label
+    {
+        padding-top: 5px;
+    }
+}
+
+@media(max-width: 630px)
+{
+    a
+    {
+        width: 100px; 
+        height: 100px; 
+        margin: 3px;
+        font-size: .7rem;
+    }
+
+    .label
+    {
+        padding-top: 5px;
+    }
+}
+/*#endregion media-queries*/
